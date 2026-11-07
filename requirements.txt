@@ -1,0 +1,5 @@
+aiogram>=3.13,<4
+asyncpg>=0.29
+fastapi
+uvicorn[standard]
+python-dotenv

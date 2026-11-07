@@ -1,0 +1,161 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f7f0e8;
+    color: #49352b;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 25px 18px;
+}
+
+.hero {
+    text-align: center;
+    padding: 35px 0;
+}
+
+.logo {
+    width: 65px;
+    height: 65px;
+    margin: auto;
+    display: grid;
+    place-items: center;
+    border: 1px solid #b89b83;
+    border-radius: 50%;
+    font-size: 24px;
+}
+
+.brand {
+    margin-top: 15px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+.hero small {
+    display: block;
+    margin-top: 10px;
+    color: #947969;
+}
+
+.section-title {
+    margin: 25px 0;
+}
+
+.section-title small,
+.promo small,
+.modal small {
+    letter-spacing: 2px;
+    color: #a08068;
+}
+
+.section-title h2 {
+    font-size: 27px;
+}
+
+.list {
+    display: grid;
+    gap: 12px;
+}
+
+.service {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    padding: 18px;
+    background: #fffaf5;
+    border: 1px solid #eadbce;
+    border-radius: 18px;
+    color: #49352b;
+    text-align: left;
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 25px;
+}
+
+.info {
+    flex: 1;
+}
+
+.info b,
+.info small {
+    display: block;
+}
+
+.info small {
+    margin-top: 7px;
+    color: #a18a79;
+}
+
+.service strong {
+    white-space: nowrap;
+}
+
+.promo {
+    margin-top: 25px;
+    padding: 25px;
+    background: #ead9c7;
+    border-radius: 20px;
+}
+
+.shade {
+    position: fixed;
+    inset: 0;
+    background: #0008;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+}
+
+.shade[hidden] {
+    display: none;
+}
+
+.modal {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    background: #fffaf5;
+    border-radius: 22px;
+}
+
+.x {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    border: none;
+    background: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.modal input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #eadbce;
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+.book {
+    width: 100%;
+    padding: 16px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 12px;
+    background: #76523d;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
